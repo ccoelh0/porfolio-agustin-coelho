@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+$colorFondoPortada: #191716;
+$colorFondo: #ffffff;
+$colorClasico: rgb(0, 0, 0);
+$colorPrincipal: #6d07e6;
+$colorLinea: rgb(0, 0, 0);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+}
+
+body {
+  background-color: $colorFondo;
+  font-family: "Poppins", sans-serif;
+}
+
+.botonWp {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.botonWp a img {
+  width: 50px;
+  z-index: 10;
+}
+
+@import "components/nav/nav";
+@import "components/portada/portada";
+@import "components/skills/skills";
+@import "components/trabajos/trabajos";

@@ -1,0 +1,34 @@
+.carrusel {
+  background-color: $colorFondo;
+  padding: 40px 100px 100px;
+}
+
+.skills {
+  margin: -40px 0 80px;
+  color: $colorClasico;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.skills h2 span {
+  color: $colorPrincipal;
+}
+
+.skills p {
+  font-size: 25px;
+}
+
+.owl-carousel img {
+  width: 150px !important;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

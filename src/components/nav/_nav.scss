@@ -1,0 +1,47 @@
+.menu {
+  background-color: $colorClasico;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu div img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu h1 {
+  color: $colorFondo;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu h1:hover {
+  color: $colorPrincipal;
+}
+
+.displayNone {
+  display: none;
+}
+
+.menu-navBar {
+  color: $colorClasico;
+  background-color: $colorLinea;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 90;
+}
+
+.menu-navBar li {
+  text-transform: uppercase;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.menu-navBar li:hover {
+  color: $colorPrincipal;
+}

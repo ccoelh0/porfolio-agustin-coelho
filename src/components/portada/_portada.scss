@@ -1,0 +1,50 @@
+.grid {
+  background-color: $colorPrincipal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main .main-content {
+  padding-right: 100px;
+}
+
+.main .main-content h2 {
+  color: $colorFondo;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.main span {
+  color: $colorClasico;
+}
+
+.main .main-content div p {
+  color: $colorClasico;
+  margin-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.main-content-div-subrayado {
+  width: 70px;
+  height: 1px;
+  background-color: $colorClasico;
+  cursor: pointer;
+}
+
+.main .main-content div p:hover {
+  color: $colorPrincipal;
+}
+
+.main-img img {
+  height: 400px;
+  width: 400px;
+}
