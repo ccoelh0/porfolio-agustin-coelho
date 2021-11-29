@@ -1,29 +1,26 @@
 .grid {
-  background-color: $colorPrincipal;
-  display: flex;
+  background-color: $colorFondo;
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
-  justify-content: center;
 }
 
 .main {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-end;
-}
-
-.main .main-content {
-  padding-right: 100px;
 }
 
 .main .main-content h2 {
-  color: $colorFondo;
+  color: $colorClasico;
   font-weight: 700;
   font-size: 70px;
+  text-shadow: 2px 0px 3px rgba(0, 0, 0, 0.49);
+  margin-top: 50px;
 }
 
 .main span {
-  color: $colorClasico;
+  color: $colorPrincipal;
 }
 
 .main .main-content div p {
@@ -44,7 +41,12 @@
   color: $colorPrincipal;
 }
 
-.main-img img {
-  height: 400px;
-  width: 400px;
+.main-img {
+  background-image: url("../../images/pexels-photo-4164418.jpeg");
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
 }

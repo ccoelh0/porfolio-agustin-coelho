@@ -38,9 +38,8 @@ export default function Skills() {
           data-aos-duration="500"
         >
           <h2>
-            My <span>skills</span>
+            Mis <span>habilidades</span>
           </h2>
-          {/* <p>Lorem ipsum dolor sit amet consectetur.</p> */}
         </div>
         <Carousel
           swipeable={true}
