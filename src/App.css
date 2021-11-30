@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.botonWp {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.botonWp a img {
+  width: 50px;
+  z-index: 10;
+}
+
+.menu {
+  background: rgba(255, 255, 255, 0.46);
+  border: 1px solid rgba(229, 236, 244, 0.3);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.menu div img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu h1:hover {
+  color: #127475;
+}
+
+.displayNone {
+  display: none;
+}
+
+.menu-navBar {
+  color: #000;
+  background-color: #000;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 90;
+}
+
+.menu-navBar li {
+  text-transform: uppercase;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.menu-navBar li:hover {
+  color: #127475;
+}
+
+.grid {
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.main .main-content h2 {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 60px;
+  text-shadow: 2px 0px 3px rgba(0, 0, 0, 0.49);
+}
+
+.main span {
+  color: #127475;
+  font-size: 70px;
+}
+
+.main .main-content div p {
+  color: #000;
+  margin-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.main-content-div-subrayado {
+  width: 70px;
+  height: 1px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.main .main-content div p:hover {
+  color: #127475;
+}
+
+.main-img {
+  background-image: url("../../images/pexels-photo-4164418.jpeg");
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.carrusel {
+  background-color: #f5f5f5;
+  padding: 40px 100px 100px;
+}
+
+.skills {
+  margin: 80px 0;
+  color: #000;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.skills h2 span {
+  color: #127475;
+}
+
+.skills p {
+  font-size: 25px;
+}
+
+.owl-carousel img {
+  width: 150px !important;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proyectContainer {
+  text-align: center;
+}
+.proyectContainer .proyect-titleGral {
+  color: #000;
+  margin: 30px 0 20px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.proyectContainer .proyect-titleGral span {
+  color: #127475;
+}
+.proyectContainer .proyect-parrafo {
+  font-size: 25px;
+}
+
+.proyects1 {
+  margin: 100px 40px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 35% 50% auto;
+  grid-template-areas: ". texto img .";
+}
+
+.proyects2 {
+  margin: 100px 40px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 50% 35% auto;
+  grid-template-areas: ". img texto .";
+}
+
+.proyects-texto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10px;
+  text-align: left;
+  grid-area: texto;
+}
+
+.proyects-texto h3 {
+  font-size: 33px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.proyects-texto span {
+  color: #127475;
+}
+
+.proyects-texto p {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.proyects-contenedorImg1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-area: img;
+}
+
+.proyects-contenedorImg2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-area: img;
+}
+
+.proyect-mobile {
+  width: 210px;
+  position: absolute;
+  z-index: 5;
+}
+
+.proyect-desktop {
+  position: relative;
+  width: 500px;
+}
+
+.button {
+  background: linear-gradient(to bottom, #6b07e6 5%, #3e0880 100%);
+  background-color: #6b07e6;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  width: 200px;
+  height: auto;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #3e0880 5%, #6b07e6 100%);
+  background-color: #3e0880;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}/*# sourceMappingURL=App.css.map */

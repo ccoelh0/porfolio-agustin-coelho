@@ -35,7 +35,7 @@ export default function Trabajos() {
         "En este trabajo se utilizó ReactJs para simular la funcionalidad de un ecommerce. El mismo cuenta con una lista de productos traida de Firebase y también con un carrito de productos. Por último, cuando el usuario finaliza la compra, los datos de esta se guardan en Firebase.",
       img1: FlexMobile,
       img2: FlexDesktop,
-      link: "https://github.com/ccoelh0/proyecto-react",
+      link: "https://github.com/ccoelh0/tienda-flex",
       claseContainer: proyect1,
       claseImg: contenedorImg1,
     },

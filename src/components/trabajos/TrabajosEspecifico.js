@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Boton from "./Boton";
 
 export default function TrabajosImg1({
   titulo,
@@ -18,7 +18,7 @@ export default function TrabajosImg1({
           {titulo} <span>{span}</span>
         </h3>
         <p>{parrafo}</p>
-        <Button link={link} />
+        <Boton link={link} />
       </div>
       <div className={claseImg}>
         <img className="proyect-mobile" src={src1} alt="" />

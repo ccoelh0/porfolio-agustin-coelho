@@ -1,7 +1,8 @@
 .menu {
-  background: rgba(80, 1, 173, 0.8);
-  backdrop-filter: blur(4px);
-  position: sticky;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  position: fixed;
   top: 0;
   width: 100%;
   height: 10vh;
@@ -13,41 +14,33 @@
   z-index: 100;
 }
 
+#menuOpen {
+  display: none;
+}
+
+#menuClose {
+  display: none;
+}
+
 .menu div img {
   width: 30px;
   cursor: pointer;
 }
 
-.menu h1 {
+.menu nav {
+  width: 100%;
+}
+
+.menu nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu nav ul li {
   color: $colorFondo;
-  font-size: 20px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.menu h1:hover {
-  color: $colorPrincipal;
-}
-
-.displayNone {
-  display: none;
-}
-
-.menu-navBar {
-  color: $colorClasico;
-  background-color: $colorLinea;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  z-index: 90;
-}
-
-.menu-navBar li {
-  text-transform: uppercase;
-  padding: 20px;
-  cursor: pointer;
-}
-
-.menu-navBar li:hover {
-  color: $colorPrincipal;
+  margin: 0 20px;
 }

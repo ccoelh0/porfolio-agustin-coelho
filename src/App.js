@@ -6,6 +6,7 @@ import Nav from "./components/nav/Nav";
 import Portada from "./components/portada/Portada";
 import Skills from "./components/skills/Skills";
 import Trabajos from "./components/trabajos/Trabajos";
+import Contacto from "./components/contact/Contacto";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Portada />
         <Skills />
         <Trabajos />
+        <Contacto />
       </Router>
     </>
   );

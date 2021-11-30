@@ -15,17 +15,17 @@ export default function Nav() {
       <header className="menu">
         <div>
           <img src={Burger} id="menuOpen" />
-          <img src={Close} id="menuClose" className="displayNone" />
+          <img src={Close} id="menuClose" />
         </div>
-        <h1>Agustin Coelho</h1>
+        <nav>
+          <ul>
+            <li>Habilidades</li>
+            <li>Trabajos</li>
+            <li>Sobre mi</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
       </header>
-      <nav>
-        <ul id="menuNavBar" className="displayNone menu-navBar">
-          <li>About me</li>
-          <li>Jobs</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
     </>
   );
 }
