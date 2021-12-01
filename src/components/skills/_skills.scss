@@ -13,9 +13,11 @@
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 600;
+  text-shadow: $sombra;
 }
 
 .skills h2 span {
+  text-shadow: $sombra;
   color: $colorPrincipal;
 }
 

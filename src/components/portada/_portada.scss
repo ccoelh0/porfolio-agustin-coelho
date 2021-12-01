@@ -14,12 +14,17 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.main .main-content p {
+.main .main-content .main-content-p {
   color: $colorFondo;
   margin: 0;
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
   text-shadow: 3px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.main-content-p:hover {
+  cursor: text !important;
+  color: $colorFondo !important;
 }
 
 .main .main-content h2 {

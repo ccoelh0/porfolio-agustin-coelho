@@ -6,8 +6,10 @@
     margin: 30px 0 20px;
     font-size: 50px;
     font-weight: 600;
+    text-shadow: $sombra;
     span {
       color: $colorPrincipal;
+      text-shadow: $sombra;
     }
   }
   .proyect-parrafo {
@@ -42,12 +44,14 @@
 
 .proyects-texto h3 {
   font-size: 33px;
+  text-shadow: $sombra;
   margin-bottom: 20px;
   color: $colorLinea;
 }
 
 .proyects-texto span {
   color: $colorPrincipal;
+  text-shadow: $sombra;
 }
 
 .proyects-texto p {
