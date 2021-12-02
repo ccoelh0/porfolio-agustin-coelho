@@ -1,24 +1,25 @@
 import React from "react";
+import Boton from "../Boton/Boton";
 
 export default function Contacto() {
   return (
     <form>
-      <div>
-        <h3>Contactame</h3>
+      <div className="form-info">
+        <h3>¿Tenes un proyecto?</h3>
+        <h4>Hablemos!</h4>
         <p>
-          I’m interested in freelance opportunities – especially ambitious or
-          large projects.
-          <br />
-          However, if you have other request or question, don’t hesitate to use
-          the form.
+          Estoy interesado en todo tiempo de trabajos freelances o en empresas.
+          No obstante, si tenes cualquier otra consulta no dudes en enviarme un
+          mensaje!
         </p>
       </div>
 
-      <div>
+      <div className="form-contacto">
         <input placeholder=" Nombre" />
         <input placeholder=" Mail" />
         <input placeholder=" Asunto" />
         <textarea placeholder=" Mensaje"></textarea>
+        <Boton texto={`Enviar mensaje`} />
       </div>
     </form>
   );

@@ -99,7 +99,7 @@ export default function Trabajos() {
     <>
       <div className="proyectContainer">
         <h2 className="proyect-titleGral">
-          Mis <span>Trabajos</span>
+          Mis <span>trabajos</span>
         </h2>
         {/* <p className="proyect-parrafo">Conoce todos mis trabajos!</p> */}
         {proyects.map((p) => {
@@ -113,6 +113,7 @@ export default function Trabajos() {
               link={p.link}
               claseContainer={p.claseContainer}
               claseImg={p.claseImg}
+              texto={`Ver repositorio`}
             />
           );
         })}

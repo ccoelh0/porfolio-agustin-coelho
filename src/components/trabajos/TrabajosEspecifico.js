@@ -1,5 +1,5 @@
 import React from "react";
-import Boton from "./Boton";
+import Boton from "../Boton/Boton";
 
 export default function TrabajosImg1({
   titulo,
@@ -10,6 +10,7 @@ export default function TrabajosImg1({
   link,
   claseContainer,
   claseImg,
+  texto,
 }) {
   return (
     <div className={claseContainer}>
@@ -18,7 +19,7 @@ export default function TrabajosImg1({
           {titulo} <span>{span}</span>
         </h3>
         <p>{parrafo}</p>
-        <Boton link={link} />
+        <Boton link={link} texto={texto} />
       </div>
       <div className={claseImg}>
         <img className="proyect-mobile" src={src1} alt="" />
