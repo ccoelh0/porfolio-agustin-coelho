@@ -97,7 +97,7 @@ export default function Trabajos() {
 
   return (
     <>
-      <div className="proyectContainer">
+      <div className="proyectContainer" id="trabajos">
         <h2 className="proyect-titleGral">
           Mis <span>trabajos</span>
         </h2>

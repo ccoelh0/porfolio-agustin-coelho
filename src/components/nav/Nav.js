@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Burger from "../../images/hamburger.png";
 import Close from "../../images/close.png";
@@ -13,10 +14,18 @@ export default function Nav() {
         </div>
         <nav>
           <ul>
-            <li>Habilidades</li>
-            <li>Trabajos</li>
-            <li>Sobre mi</li>
-            <li>Contacto</li>
+            <li onClick={() => window.location.replace("/#skills")}>
+              Habilidades
+            </li>
+            <li onClick={() => window.location.replace("/#sobreMi")}>
+              Sobre mi
+            </li>
+            <li onClick={() => window.location.replace("/#trabajos")}>
+              Trabajos
+            </li>
+            <li onClick={() => window.location.replace("/#contacto")}>
+              Contacto
+            </li>
           </ul>
         </nav>
       </header>

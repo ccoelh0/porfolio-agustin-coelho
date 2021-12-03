@@ -3,11 +3,16 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import github from "../../images/github.png";
+import git from "../../images/git.png";
 import html from "../../images/html.png";
 import css from "../../images/css-3.png";
-import javascript from "../../images/javascript.png";
+import javascript from "../../images/js.png";
 import react from "../../images/react.png";
+import firebase from "../../images/firebase.png";
 import sass from "../../images/sass.png";
+import jquery from "../../images/jquery.png";
+import boostrap from "../../images/boostrap.png";
+import npm from "../../images/npm.png";
 
 export default function Skills() {
   const responsive = {
@@ -29,14 +34,8 @@ export default function Skills() {
   };
   return (
     <>
-      <div className="carrusel">
-        <div
-          className="skills"
-          data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500"
-        >
+      <div className="carrusel" id="skills">
+        <div className="skills">
           <h2>
             Mis <span>habilidades</span>
           </h2>
@@ -56,9 +55,14 @@ export default function Skills() {
           <img src={html} />
           <img src={css} />
           <img src={sass} />
-          <img src={javascript} />
-          <img src={react} />
+          <img src={boostrap} />
+          <img src={git} />
           <img src={github} />
+          <img src={javascript} />
+          <img src={jquery} />
+          <img src={react} />
+          <img src={firebase} />
+          <img src={npm} />
         </Carousel>
       </div>
     </>

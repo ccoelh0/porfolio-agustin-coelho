@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap");
 
-$colorFondoPortada: #191716;
+$colorFondoPortada: #080808;
 $colorFondo: #f5f5f5;
 $colorClasico: #080808;
 $colorPrincipal: #127475;
 $colorLinea: #080808;
-$sombra: 2px 0px 0px rgba(0, 0, 0, 0.39);
+$sombra: 0px 0px 0px rgba(0, 0, 0, 0.57);
 
 * {
   margin: 0;
@@ -35,4 +35,5 @@ body {
 @import "components/portada/portada";
 @import "components/skills/skills";
 @import "components/trabajos/trabajos";
-@import "components/contact//form";
+@import "components/contact/form";
+@import "components/sobremi/sobreMi";

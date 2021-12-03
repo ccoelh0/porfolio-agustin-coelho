@@ -43,4 +43,30 @@
 .menu nav ul li {
   color: $colorFondo;
   margin: 0 20px;
+  z-index: 5;
+}
+
+.menu nav ul li {
+  padding-bottom: 1px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(3px);
+    background: $colorFondo;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  &:hover:after {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

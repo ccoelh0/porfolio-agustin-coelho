@@ -1,10 +1,10 @@
 import React from "react";
-import Boton from "../Boton/Boton";
+import Boton from "../boton/Boton";
 
 export default function Contacto() {
   return (
     <form>
-      <div className="form-info">
+      <div className="form-info" id="contacto">
         <h3>¿Tenes un proyecto?</h3>
         <h4>Hablemos!</h4>
         <p>
