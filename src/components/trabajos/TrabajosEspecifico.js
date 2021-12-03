@@ -1,5 +1,5 @@
 import React from "react";
-import Boton from "../Boton/Boton";
+import Boton from "../boton/Boton";
 
 export default function TrabajosImg1({
   titulo,
