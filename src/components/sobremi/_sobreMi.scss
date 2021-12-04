@@ -1,15 +1,15 @@
 .sobreMi {
-  background-color: $colorFondoPortada;
+  background-color: $colorFondo;
   padding: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .sobreMi .sobreMi-contenido {
   width: 50%;
   h3 {
-    color: $colorFondo;
+    color: $colorFondoPortada;
     font-size: 50px;
     margin-bottom: 20px;
     span {
@@ -17,7 +17,7 @@
     }
   }
   p {
-    color: $colorFondo;
+    color: $colorFondoPortada;
     font-size: 20px;
     font-weight: 300;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

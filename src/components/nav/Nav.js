@@ -14,11 +14,11 @@ export default function Nav() {
         </div>
         <nav>
           <ul>
-            <li onClick={() => window.location.replace("/#skills")}>
-              Habilidades
-            </li>
             <li onClick={() => window.location.replace("/#sobreMi")}>
               Sobre mi
+            </li>
+            <li onClick={() => window.location.replace("/#skills")}>
+              Habilidades
             </li>
             <li onClick={() => window.location.replace("/#trabajos")}>
               Trabajos

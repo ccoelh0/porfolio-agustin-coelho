@@ -15,8 +15,8 @@ function App() {
       <Router>
         <Nav />
         <Portada />
-        <Skills />
         <SobreMi />
+        <Skills />
         <Trabajos />
         <Contacto />
       </Router>
