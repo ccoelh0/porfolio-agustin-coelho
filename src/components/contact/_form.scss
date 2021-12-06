@@ -59,3 +59,29 @@
   color: $colorFondo;
   margin-bottom: 20px;
 }
+
+.form-contacto-btnYAlerts {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  .form-contacto-alerts {
+    .exitoso {
+      border-radius: 25px;
+      background-color: green;
+      color: $colorFondo;
+      font-size: 15px;
+      padding: 13px;
+      height: 50px;
+      box-shadow: inset 0px 0px 15px 3px rgb(3, 87, 3);
+    }
+    .error {
+      background-color: red;
+      color: $colorFondo;
+      font-size: 15px;
+      border-radius: 25px;
+      padding: 13px;
+      box-shadow: inset 0px 0px 15px 3px rgb(128, 0, 0);
+      height: 50px;
+    }
+  }
+}

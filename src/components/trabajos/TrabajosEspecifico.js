@@ -16,13 +16,13 @@ export default function TrabajosImg1({
     <div className={claseContainer}>
       <div className="proyects-texto">
         <h3>
-          {titulo} <span>{span}</span>
+          {titulo} <span style={{ marginLeft: 8 }}>{span}</span>
         </h3>
         <p>{parrafo}</p>
         <Boton link={link} texto={texto} />
       </div>
       <div className={claseImg}>
-        <img className="proyect-mobile" src={src1} alt="" />
+        <img className="proyect-mobile" src={src1} alt={titulo} />
         <img className="proyect-desktop" src={src2} />
       </div>
     </div>

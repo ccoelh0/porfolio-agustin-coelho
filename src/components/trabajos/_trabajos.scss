@@ -46,6 +46,8 @@
   text-shadow: $sombra;
   margin-bottom: 20px;
   color: $colorLinea;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .proyects-texto span {

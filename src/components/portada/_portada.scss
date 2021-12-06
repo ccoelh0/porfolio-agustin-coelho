@@ -1,74 +1,37 @@
-.grid {
-  background-color: $colorClasico;
-  display: grid;
-  grid-template-columns: 55% 45%;
-  align-items: center;
-}
-
 .main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 50px 40px 0;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: $colorFondoPortada;
+  padding-top: 60px;
+}
+
+.main h2,
+h3 {
+  color: $colorFondo;
+  font-size: 65px;
+  display: flex;
+}
+
+.main h1 {
+  color: $colorPrincipal;
+  font-size: 65px;
+  margin-left: 5px;
+}
+
+.main h1 .Typewriter__cursor {
+  color: $colorFondo;
+}
+
+.main p {
+  color: $colorFondo;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.main .main-content .main-content-p {
-  color: $colorFondo;
-  margin: 0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 23px;
-  text-shadow: 3px 0px 2px rgba(0, 0, 0, 0.6);
-}
-
-.main-content-p:hover {
-  cursor: text !important;
-  color: $colorFondo !important;
-}
-
-.main .main-content h2 {
-  color: $colorFondo;
-  text-shadow: 3px 0px 2px rgba(0, 0, 0, 0.6);
-  font-size: 60px;
-  font-weight: 700;
-}
-
-.main .main-content span {
-  color: $colorPrincipal;
-  font-size: 60px;
-  text-shadow: 3px 0px 2px rgba(0, 0, 0, 0.6);
-  font-weight: 700;
-}
-
-.main .main-content span .Typewriter__cursor {
-  color: $colorFondo;
-}
-
-.main .main-content div p {
-  color: $colorClasico;
-  margin-top: 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.main-content-div-subrayado {
-  width: 70px;
-  height: 1px;
-  background-color: $colorClasico;
-  cursor: pointer;
-}
-
-.main .main-content div p:hover {
-  color: $colorPrincipal;
-}
-
-.main-img {
-  background-image: url("../../images/pexels-photo-4164418.jpeg");
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  filter: grayscale(100%);
 }

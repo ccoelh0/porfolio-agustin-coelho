@@ -11,13 +11,12 @@ const SobreMi = () => {
     <div className="sobreMi" id="sobreMi">
       <div className="sobreMi-contenido">
         <h3>
-          Sobre <span>mi</span>
+          Un poco <span style={{ marginLeft: 10 }}>sobre mi</span>
         </h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsum
-          enim ad sunt fugiat dignissimos, suscipit maxime atque iusto at id
-          odit cupiditate adipisci nobis illum perspiciatis doloribus dolorem
-          voluptatem.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti,
+          provident. Quaerat quisquam nostrum sed accusamus, molestias placeat
+          iste quos deserunt.
         </p>
         <div>
           <Link

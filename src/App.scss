@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 $colorFondoPortada: #080808;
 $colorFondo: #f5f5f5;
@@ -37,3 +37,4 @@ body {
 @import "components/trabajos/trabajos";
 @import "components/contact/form";
 @import "components/sobremi/sobreMi";
+@import "components/boton/boton";

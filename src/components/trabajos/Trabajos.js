@@ -20,6 +20,15 @@ import EmiliaDesktop from "../../images/trabajos/emilia/desktop.png";
 import FlexMobile from "../../images/trabajos/flex/mobile.png";
 import FlexDesktop from "../../images/trabajos/flex/desktop.png";
 
+import appMobile from "../../images/trabajos/appnotas/mobile.png";
+import appDesktop from "../../images/trabajos/appnotas/desktop.png";
+
+import contrasenasMobile from "../../images/trabajos/contrasenas/mobile.png";
+import contrasenasDesktop from "../../images/trabajos/contrasenas/desktop.png";
+
+import formMobile from "../../images/trabajos/form/mobile.png";
+import formDesktop from "../../images/trabajos/form/desktop.png";
+
 export default function Trabajos() {
   const proyect1 = `proyects1`;
   const proyect2 = `proyects2`;
@@ -30,7 +39,7 @@ export default function Trabajos() {
   const proyects = [
     {
       titulo: "Tienda",
-      span: "Flex",
+      span: " Flex",
       parrafo:
         "En este trabajo se utilizó ReactJs para simular la funcionalidad de un ecommerce. El mismo cuenta con una lista de productos traida de Firebase y también con un carrito de productos. Por último, cuando el usuario finaliza la compra, los datos de esta se guardan en Firebase.",
       img1: FlexMobile,
@@ -40,8 +49,8 @@ export default function Trabajos() {
       claseImg: contenedorImg1,
     },
     {
-      titulo: "Nacion",
-      span: "Gamer",
+      titulo: "Nación",
+      span: " Gamer",
       parrafo:
         "Desarrollo de una pagina sobre una tienda de videojuegos totalmente responsive. La misma simular la interaccoin de un carrito de compras utilizando HTML, CSS y JavaScript.",
       img1: NacionGamerMobile,
@@ -51,8 +60,30 @@ export default function Trabajos() {
       claseImg: contenedorImg2,
     },
     {
+      titulo: "Formulario de",
+      span: " Validación",
+      parrafo:
+        "Este es un formulario de validacion que es interactivo. Su proposito es que cada vez que vas llenando los correspondientes inputs va a ir cambiando los valores en la tarjeta Tambien segun el primer numero que pongas aparecera el logo de VISA (4) o MasterCard (5). Los inputs estan validados para que solo se puedan poner valores concretos.",
+      img1: formMobile,
+      img2: formDesktop,
+      link: "https://github.com/ccoelh0/Formulario-de-validacion-interactivo",
+      claseContainer: proyect1,
+      claseImg: contenedorImg1,
+    },
+    {
+      titulo: "Movie",
+      span: " Finder",
+      parrafo:
+        "Desarrollo de un app que, segun la palabra que buscas, te trae una peliculas especifica. Realizada con HTML, CSS y JavaScript y es totalmente responsive",
+      img1: MovieFinderMobile,
+      img2: MovieFinderDesktop,
+      link: "https://github.com/ccoelh0/buscador-de-peliculas",
+      claseContainer: proyect2,
+      claseImg: contenedorImg2,
+    },
+    {
       titulo: "Podcast",
-      span: "House",
+      span: " House",
       parrafo: "Maquetacion de landing para un podcast totalmente responsive.",
       img1: PodcastHouseMobile,
       img2: PodcastHouseDesktop,
@@ -61,8 +92,8 @@ export default function Trabajos() {
       claseImg: contenedorImg1,
     },
     {
-      titulo: "Los Angeles",
-      span: "Studio",
+      titulo: "Los Ángeles",
+      span: " Studio",
       parrafo:
         "Proyecto de maquetacion de un sitio de tatuajes. Cuenta con 5 vistas, todas responsive. Ademas con un formulario de contacto y distintas animaciones. Realizado con HTML, Boostrap y SASS.",
       img1: AngelesMobile,
@@ -72,19 +103,19 @@ export default function Trabajos() {
       claseImg: contenedorImg2,
     },
     {
-      titulo: "Movie",
-      span: "Finder",
+      titulo: "App de",
+      span: " notas",
       parrafo:
-        "Desarrollo de un app que, segun la palabra que buscas, te trae una peliculas especifica. Realizada con HTML, CSS y JavaScript y es totalmente responsive",
-      img1: MovieFinderMobile,
-      img2: MovieFinderDesktop,
-      link: "https://github.com/ccoelh0/buscador-de-peliculas",
+        "Esta app fue creada con JavaScript y te permite crear notas que quedaran guardadas en tu LocalStorage.",
+      img1: appMobile,
+      img2: appDesktop,
+      link: "https://github.com/ccoelh0/App-de-notas",
       claseContainer: proyect1,
       claseImg: contenedorImg1,
     },
     {
       titulo: "Restaurant",
-      span: "Emilia",
+      span: " Emilia",
       parrafo:
         "Desarrollo de una carta para un restaurante totalmente interactiva. Se uso HTML, CSS y Javascript",
       img1: EmiliaMobile,
@@ -92,6 +123,17 @@ export default function Trabajos() {
       link: "https://ccoelh0.github.io/tienda-de-videjuegos/",
       claseContainer: proyect2,
       claseImg: contenedorImg2,
+    },
+    {
+      titulo: "Generador de",
+      span: " contraseñas",
+      parrafo:
+        "Este es un app creada con javascript que, segun las caracteristicas que clickeas, te crea una contrasena.",
+      img1: contrasenasMobile,
+      img2: contrasenasDesktop,
+      link: "https://github.com/ccoelh0/Generador-de-contrasenas",
+      claseContainer: proyect1,
+      claseImg: contenedorImg1,
     },
   ];
 
@@ -101,7 +143,6 @@ export default function Trabajos() {
         <h2 className="proyect-titleGral">
           Mis <span>trabajos</span>
         </h2>
-        {/* <p className="proyect-parrafo">Conoce todos mis trabajos!</p> */}
         {proyects.map((p) => {
           return (
             <TrabajosEspecificos
