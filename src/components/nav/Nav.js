@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Burger from "../../images/hamburger.png";
 import Close from "../../images/close.png";
+import Logo from "../../images/logo.png";
 
 export default function Nav() {
   return (
@@ -20,6 +20,11 @@ export default function Nav() {
             <li onClick={() => window.location.replace("/#skills")}>
               Habilidades
             </li>
+            <img
+              onClick={() => window.location.replace("/#portada")}
+              src={Logo}
+              style={{ margin: 10, width: 100, cursor: "pointer" }}
+            />
             <li onClick={() => window.location.replace("/#trabajos")}>
               Trabajos
             </li>

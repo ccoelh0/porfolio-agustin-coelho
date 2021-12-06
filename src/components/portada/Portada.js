@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Portada() {
   return (
     <>
-      <div className="main">
+      <div className="main" id="portada">
         <h2>Bienvenido a mi</h2>
         <h1>
           <Typewriter

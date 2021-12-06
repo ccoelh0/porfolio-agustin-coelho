@@ -63,7 +63,7 @@ export default function Contacto() {
             </div>
           </div>
           <button className="button" type="submit" value="Send">
-            Enviar mensaje!
+            Enviar mensaje
           </button>
         </div>
       </form>

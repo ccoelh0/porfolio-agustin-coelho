@@ -1,11 +1,9 @@
 .menu {
-  background: rgba(18, 116, 117, 0.85);
-  backdrop-filter: blur(4px);
+  background: rgba(8, 8, 8, 0.78);
+  backdrop-filter: blur(8.4px);
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10vh;
-  padding: 20px 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,7 +49,7 @@
 
 .menu nav ul li {
   padding-bottom: 1px;
-  color: white;
+  color: $colorFondo;
   position: relative;
   cursor: pointer;
 

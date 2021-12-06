@@ -63,7 +63,7 @@ export default function Trabajos() {
       titulo: "Formulario de",
       span: " Validación",
       parrafo:
-        "Este es un formulario de validacion que es interactivo. Su proposito es que cada vez que vas llenando los correspondientes inputs va a ir cambiando los valores en la tarjeta Tambien segun el primer numero que pongas aparecera el logo de VISA (4) o MasterCard (5). Los inputs estan validados para que solo se puedan poner valores concretos.",
+        "Este es un formulario de validación que es interactivo. Su proposito es que cada vez que vas llenando los correspondientes inputs va a ir cambiando los valores en la tarjeta tambien según el primer número que pongas aparecera el logo de VISA (4) o MasterCard (5). Los inputs estan validados para que sólo se puedan poner valores concretos.",
       img1: formMobile,
       img2: formDesktop,
       link: "https://github.com/ccoelh0/Formulario-de-validacion-interactivo",
@@ -74,7 +74,7 @@ export default function Trabajos() {
       titulo: "Movie",
       span: " Finder",
       parrafo:
-        "Desarrollo de un app que, segun la palabra que buscas, te trae una peliculas especifica. Realizada con HTML, CSS y JavaScript y es totalmente responsive",
+        "Desarrollo de un app que, según la palabra que buscas, te trae una peliculas especifica. Realizada con HTML, CSS y JavaScript y es totalmente responsive",
       img1: MovieFinderMobile,
       img2: MovieFinderDesktop,
       link: "https://github.com/ccoelh0/buscador-de-peliculas",
@@ -84,7 +84,7 @@ export default function Trabajos() {
     {
       titulo: "Podcast",
       span: " House",
-      parrafo: "Maquetacion de landing para un podcast totalmente responsive.",
+      parrafo: "Maquetación de landing para un podcast totalmente responsive.",
       img1: PodcastHouseMobile,
       img2: PodcastHouseDesktop,
       link: "https://ccoelh0.github.io/buscador-de-peliculas/",
@@ -95,7 +95,7 @@ export default function Trabajos() {
       titulo: "Los Ángeles",
       span: " Studio",
       parrafo:
-        "Proyecto de maquetacion de un sitio de tatuajes. Cuenta con 5 vistas, todas responsive. Ademas con un formulario de contacto y distintas animaciones. Realizado con HTML, Boostrap y SASS.",
+        "Proyecto de maquetación de un sitio de tatuajes. Cuenta con 5 vistas, todas responsive. Además con un formulario de contacto y distintas animaciones. Realizado con HTML, Boostrap y SASS.",
       img1: AngelesMobile,
       img2: AngelesDesktop,
       link: "https://ccoelh0.github.io/tienda-de-videjuegos/",
@@ -128,7 +128,7 @@ export default function Trabajos() {
       titulo: "Generador de",
       span: " contraseñas",
       parrafo:
-        "Este es un app creada con javascript que, segun las caracteristicas que clickeas, te crea una contrasena.",
+        "Este es un app creada con javascript que, segun las caracteristicas que clickeas, te crea una contraseña.",
       img1: contrasenasMobile,
       img2: contrasenasDesktop,
       link: "https://github.com/ccoelh0/Generador-de-contrasenas",
@@ -143,9 +143,10 @@ export default function Trabajos() {
         <h2 className="proyect-titleGral">
           Mis <span>trabajos</span>
         </h2>
-        {proyects.map((p) => {
+        {proyects.map((p, index) => {
           return (
             <TrabajosEspecificos
+              key={index}
               titulo={p.titulo}
               span={p.span}
               parrafo={p.parrafo}
