@@ -16,7 +16,7 @@ function App() {
         <Nav />
         <Portada />
         <SobreMi />
-        <Skills />
+        {/* <Skills /> */}
         <Trabajos />
         <Contacto />
       </Router>

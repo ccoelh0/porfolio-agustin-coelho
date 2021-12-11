@@ -13,6 +13,10 @@ $sombra: 0px 0px 0px rgba(0, 0, 0, 0.6);
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $colorFondo;
   font-family: "Open Sans", sans-serif;

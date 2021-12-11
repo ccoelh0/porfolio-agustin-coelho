@@ -1,47 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import foto from "../../images/fotosinfondo.png";
-import github from "../../images/sobreMi/github.png";
-import gmail from "../../images/sobreMi/gmail.png";
-import linkedin from "../../images/sobreMi/linkedin.png";
+import SkillsTags from "../skillstags/SkillsTags";
 
 const SobreMi = () => {
   return (
-    <div className="sobreMi" id="sobreMi">
-      <div className="sobreMi-contenido">
+    <div className="sobreMiGral">
+      <div>
         <h3>
-          Un poco <span style={{ marginLeft: 10 }}>sobre mi</span>
+          Un poco <span>sobre mi</span>
         </h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti,
-          provident. Quaerat quisquam nostrum sed accusamus, molestias placeat
-          iste quos deserunt.
-        </p>
-        <div>
-          <Link
-            to="#"
-            onClick={(e) => {
-              window.location = `mailto:coelhoagustin1@gmail.com`;
-              e.preventDefault();
-            }}
-            target="_blank"
-          >
-            <img src={gmail} />
-          </Link>
-          <a href="https://github.com/ccoelh0" target="_blank">
-            <img src={github} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/agustin-coelho-2a5767175/"
-            target="_blank"
-          >
-            <img src={linkedin} />
-          </a>
-        </div>
       </div>
-      <div className="sobreMi-foto">
-        <img src={foto} />
+      <div className="sobreMi" id="sobreMi">
+        <div className="sobreMi-contenido">
+          <p>
+            I’m a Front-End Developer located in Poland. I have a serious
+            passion for UI effects, animations and creating intuitive, dynamic
+            user experiences.
+            <br />
+            <br />
+            Well-organised person, problem solver, independent employee with
+            high attention to detail. Fan of MMA, outdoor activities, TV series
+            and English literature. A family person and father of two fractious
+            boys,
+            <br />
+            <br />
+            Well-organised person, problem solver, independent employee with
+            high Interested in the entire frontend spectrum and working on
+            ambitious projects with positive people.
+          </p>
+        </div>
+        <div className="sobreMi-foto">
+          <SkillsTags />
+        </div>
       </div>
     </div>
   );

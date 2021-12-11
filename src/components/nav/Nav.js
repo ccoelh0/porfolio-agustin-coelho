@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Burger from "../../images/hamburger.png";
 import Close from "../../images/close.png";
 import Logo from "../../images/logo.png";
 
 export default function Nav() {
+  const [state, setState] = useState({ toggle: false });
+
+  const menuToggle = () => {
+    setState({ toggle: !state.toggle });
+  };
+
+  const { toggle } = state;
+
   return (
     <>
       <header className="menu">
         <div>
-          <img src={Burger} id="menuOpen" />
-          <img src={Close} id="menuClose" />
+          <img src={Burger} id="menuOpen" onClick={menuToggle} />
+          <img src={Close} id="menuClose" onClick={menuToggle} />
         </div>
         <nav>
           <ul>

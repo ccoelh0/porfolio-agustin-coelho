@@ -15,9 +15,11 @@ export default function TrabajosImg1({
   return (
     <div className={claseContainer}>
       <div className="proyects-texto">
-        <h3>
-          {titulo} <span style={{ marginLeft: 8 }}>{span}</span>
-        </h3>
+        <div className="proyects-texto-titulos">
+          <h3>{titulo}</h3>
+          <span>{span}</span>
+        </div>
+
         <p>{parrafo}</p>
         <Boton link={link} texto={texto} />
       </div>

@@ -40,7 +40,7 @@ export default function Contacto() {
     <div className="form">
       <div className="form-info" id="contacto">
         <h3>¿Tenes un proyecto?</h3>
-        <h4>Hablemos!</h4>
+        <h4>¡Hablemos!</h4>
         <p>
           Estoy interesado en todo tiempo de trabajos freelances o en empresas.
           No obstante, si tenes cualquier otra consulta no dudes en enviarme un
@@ -52,7 +52,12 @@ export default function Contacto() {
         <input placeholder=" Nombre" type="text" name="user_name" required />
         <input placeholder=" Mail" type="email" name="user_email" required />
         <input placeholder=" Asunto" type="text" name="subject" required />
-        <textarea placeholder=" Mensaje" name="message" required />
+        <textarea
+          placeholder=" Mensaje"
+          name="message"
+          required
+          style={{ padding: 5 }}
+        />
         <div className="form-contacto-btnYAlerts">
           <div className="form-contacto-alerts">
             <div className="exitoso" style={{ display: mensajeEnviado }}>

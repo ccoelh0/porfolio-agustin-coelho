@@ -1,9 +1,9 @@
 .proyectContainer {
-  margin-top: 80px;
   .proyect-titleGral {
     color: $colorClasico;
     margin: 30px 100px 20px;
     font-size: 50px;
+    text-align: center;
     font-weight: 600;
     text-shadow: $sombra;
     span {
@@ -17,7 +17,7 @@
 }
 
 .proyects1 {
-  margin: 100px 40px;
+  margin: 90px 40px 100px;
   align-items: center;
   display: grid;
   grid-template-columns: auto 35% 50% auto;
@@ -41,20 +41,27 @@
   grid-area: texto;
 }
 
-.proyects-texto h3 {
-  font-size: 33px;
-  text-shadow: $sombra;
-  margin-bottom: 20px;
-  color: $colorLinea;
+.proyects-texto .proyects-texto-titulos {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-}
+  align-items: center;
+  margin-bottom: 15px;
+  h3 {
+    font-size: 33px;
+    color: $colorLinea;
+    text-shadow: $sombra;
+    margin: 0;
+    padding-right: 8px;
+  }
 
-.proyects-texto span {
-  color: $colorPrincipal;
-  text-shadow: $sombra;
+  span {
+    color: $colorPrincipal;
+    text-shadow: $sombra;
+    font-size: 33px;
+    text-shadow: $sombra;
+  }
 }
-
 .proyects-texto p {
   margin-bottom: 30px;
   color: $colorLinea;

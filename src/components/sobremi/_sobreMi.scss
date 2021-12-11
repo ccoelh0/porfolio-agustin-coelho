@@ -1,21 +1,30 @@
+.sobreMiGral {
+  margin-top: 100px;
+  div {
+    h3 {
+      color: $colorFondoPortada;
+      font-size: 50px;
+      justify-content: center;
+      margin-bottom: 50px;
+      span {
+        color: $colorPrincipal;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
 .sobreMi {
   background-color: $colorFondo;
-  padding: 100px;
+  padding: 0px 50px 50px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .sobreMi .sobreMi-contenido {
   width: 50%;
-  h3 {
-    color: $colorFondoPortada;
-    font-size: 50px;
-    margin-bottom: 20px;
-    span {
-      color: $colorPrincipal;
-    }
-  }
+
   p {
     color: $colorFondoPortada;
     font-size: 20px;
