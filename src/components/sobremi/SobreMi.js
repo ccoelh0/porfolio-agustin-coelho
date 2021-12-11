@@ -5,16 +5,17 @@ const SobreMi = () => {
   return (
     <div className="sobreMiGral">
       <div>
-        <h3>
+        <h3 style={{ textAlign: "center" }}>
           Un poco <span>sobre mi</span>
         </h3>
       </div>
       <div className="sobreMi" id="sobreMi">
         <div className="sobreMi-contenido">
           <p>
-            I’m a Front-End Developer located in Poland. I have a serious
-            passion for UI effects, animations and creating intuitive, dynamic
-            user experiences.
+            Soy un front end developer con gran interés en JavaScript y React y
+            en crear I’m a Front-End Developer located in Poland. I have a
+            serious passion for UI effects, animations and creating intuitive,
+            dynamic user experiences.
             <br />
             <br />
             Well-organised person, problem solver, independent employee with
