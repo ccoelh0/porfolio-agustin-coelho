@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import Burger from "../../images/hamburger.png";
-import Close from "../../images/close.png";
-import Logo from "../../images/logo.png";
+// import Burger from "/images/hamburger.png";
+// import Close from "/images/close.png";
+// import Logo from "/images/logo.png";
 
 export default function Nav() {
   const [state, setState] = useState({ toggle: false });
@@ -16,13 +16,13 @@ export default function Nav() {
     <>
       <header className="menu">
         <div className="menuResponsive">
-          <img
+          {/* <img
             onClick={() => window.location.replace("/#portada")}
             src={Logo}
             style={{ margin: 10, width: 100, cursor: "pointer" }}
             className="logoResponsive"
-          />
-          <img src={Burger} onClick={menuToggle} className="menuOpen" />
+          /> */}
+          {/* <img src={Burger} onClick={menuToggle} className="menuOpen" /> */}
           <ul className={toggle ? "toggle" : ""}>
             <li onClick={() => window.location.replace("/#sobreMi")}>
               Sobre mi
@@ -36,13 +36,13 @@ export default function Nav() {
             <li onClick={() => window.location.replace("/#contacto")}>
               Contacto
             </li>
-            <img
+            {/* <img
               src={Close}
               width="20"
               onClick={menuToggle}
               className="menuClose"
               alt="cierre menu"
-            />
+            /> */}
           </ul>
         </div>
         <nav>
@@ -50,14 +50,6 @@ export default function Nav() {
             <li onClick={() => window.location.replace("/#sobreMi")}>
               Sobre mi
             </li>
-            <li onClick={() => window.location.replace("/#skills")}>
-              Habilidades
-            </li>
-            <img
-              onClick={() => window.location.replace("/#portada")}
-              src={Logo}
-              style={{ margin: 10, width: 100, cursor: "pointer" }}
-            />
             <li onClick={() => window.location.replace("/#trabajos")}>
               Trabajos
             </li>

@@ -113,6 +113,7 @@ const SkillsTags = () => {
     "npm",
     "bootstrap",
     "filezilla",
+    "redux",
   ];
 
   const iconTags = iconSlugs.map((slug) => ({

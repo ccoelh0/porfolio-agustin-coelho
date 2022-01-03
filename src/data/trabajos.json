@@ -1,0 +1,92 @@
+[
+  {
+    "titulo": "Tienda",
+    "span": " Flex",
+    "parrafo": "En este trabajo se utilizó ReactJs para simular la funcionalidad de un ecommerce. El mismo cuenta con una lista de productos traida de Firebase y también con un carrito de productos. Por último, cuando el usuario finaliza la compra, los datos de esta se guardan en Firebase.",
+    "img1": "/images/trabajos/flex/mobile.jpg",
+    "img2": "/images/trabajos/flex/desktop.jpg",
+    "link": "https://github.com/ccoelh0/tienda-flex",
+    "claseContainer": "proyects1",
+    "claseImg": "proyects-contenedorImg1"
+  },
+  {
+    "titulo": "Nación",
+    "span": " Gamer",
+    "parrafo": "Desarrollo de una pagina sobre una tienda de videojuegos totalmente responsive. La misma simular la interaccoin de un carrito de compras utilizando HTML, CSS y JavaScript.",
+    "img1": "/images/trabajos/naciongamer/mobile.jpg",
+    "img2": "/images/trabajos/naciongamer/desktop.jpg",
+    "link": "https://ccoelh0.github.io/tienda-de-videjuegos/",
+    "claseContainer": "proyects2",
+    "claseImg": "proyects-contenedorImg2"
+  },
+  {
+    "titulo": "Formulario de",
+    "span": " Validación",
+    "parrafo": "Este es un formulario de validación que es interactivo. Su proposito es que cada vez que vas llenando los correspondientes inputs va a ir cambiando los valores en la tarjeta tambien según el primer número que pongas aparecera el logo de VISA (4) o MasterCard (5). Los inputs estan validados para que sólo se puedan poner valores concretos.",
+    "img1": "/images/trabajos/form/mobile.jpg",
+    "img2": "/images/trabajos/form/desktop.jpg",
+    "link": "https://github.com/ccoelh0/Formulario-de-validacion-interactivo",
+    "claseContainer": "proyects1",
+    "claseImg": "proyects-contenedorImg1"
+  },
+  {
+    "titulo": "Movie",
+    "span": " Finder",
+    "parrafo": "Desarrollo de un app que, según la palabra que buscas, te trae una peliculas especifica. Realizada con HTML, CSS y JavaScript y es totalmente responsive",
+    "img1": "/images/trabajos/moviefinder/mobile.jpg",
+    "img2": "/images/trabajos/moviefinder/desktop.jpg",
+    "link": "https://github.com/ccoelh0/buscador-de-peliculas",
+    "claseContainer": "proyects2",
+    "claseImg": "proyects-contenedorImg2"
+  },
+  {
+    "titulo": "Podcast",
+    "span": " House",
+    "parrafo": "Maquetación de landing para un podcast totalmente responsive.",
+    "img1": "/images/trabajos/podcast/mobile.jpg",
+    "img2": "/images/trabajos/podcast/desktop.jpg",
+    "link": "https://ccoelh0.github.io/buscador-de-peliculas/",
+    "claseContainer": "proyects1",
+    "claseImg": "proyects-contenedorImg1"
+  },
+  {
+    "titulo": "Los Ángeles",
+    "span": " Studio",
+    "parrafo": "Proyecto de maquetación de un sitio de tatuajes. Cuenta con 5 vistas, todas responsive. Además con un formulario de contacto y distintas animaciones. Realizado con HTML, Boostrap y SASS.",
+    "img1": "/images/trabajos/angeles/mobile.jpg",
+    "img2": "/images/trabajos/angeles/desktop.jpg",
+    "link": "https://ccoelh0.github.io/tienda-de-videjuegos/",
+    "claseContainer": "proyects2",
+    "claseImg": "proyects-contenedorImg2"
+  },
+  {
+    "titulo": "App de",
+    "span": " notas",
+    "parrafo": "Esta app fue creada con JavaScript y te permite crear notas que quedaran guardadas en tu LocalStorage.",
+    "img1": "/images/trabajos/appnotas/mobile.jpg",
+    "img2": "/images/trabajos/appnotas/desktop.jpg",
+    "link": "https://github.com/ccoelh0/App-de-notas",
+    "claseContainer": "proyects1",
+    "claseImg": "proyects-contenedorImg1"
+  },
+  {
+    "titulo": "Restaurant",
+    "span": " Emilia",
+    "parrafo": "Desarrollo de una carta para un restaurante totalmente interactiva. Se uso HTML, CSS y Javascript",
+    "img1": "/images/trabajos/emilia/mobile.jpg",
+    "img2": "/images/trabajos/emilia/desktop.jpg",
+    "link": "https://ccoelh0.github.io/tienda-de-videjuegos/",
+    "claseContainer": "proyects2",
+    "claseImg": "proyects-contenedorImg2"
+  },
+  {
+    "titulo": "Generador de",
+    "span": " contraseñas",
+    "parrafo": "Este es un app creada con javascript que, segun las caracteristicas que clickeas, te crea una contraseña.",
+    "img1": "/images/trabajos/contrasenas/mobile.jpg",
+    "img2": "/images/trabajos/contrasenas/desktop.jpg",
+    "link": "https://github.com/ccoelh0/Generador-de-contrasenas",
+    "claseContainer": "proyects1",
+    "claseImg": "proyects-contenedorImg1"
+  }
+]

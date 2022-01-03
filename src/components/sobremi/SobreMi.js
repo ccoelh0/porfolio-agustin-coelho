@@ -12,21 +12,23 @@ const SobreMi = () => {
       <div className="sobreMi" id="sobreMi">
         <div className="sobreMi-contenido">
           <p>
-            Soy un front end developer con gran interés en JavaScript y React y
-            en crear I’m a Front-End Developer located in Poland. I have a
-            serious passion for UI effects, animations and creating intuitive,
-            dynamic user experiences.
+            Soy front-end developer enfocado en JavaScript y React. Me interesa
+            mucho crear sitios atractivos y experiencias de usuario dinámicas.
             <br />
             <br />
-            Well-organised person, problem solver, independent employee with
-            high attention to detail. Fan of MMA, outdoor activities, TV series
-            and English literature. A family person and father of two fractious
-            boys,
+            Disfruto trabajando en equipo y estoy constantemente tratando de
+            incorporar cosas nuevas: actualmente estoy centrado en aprender
+            NodeJs para trabajar con backend.
             <br />
             <br />
-            Well-organised person, problem solver, independent employee with
-            high Interested in the entire frontend spectrum and working on
-            ambitious projects with positive people.
+            Tengo experiencia trabajando en proyectos freelances y como tutor de
+            Desarrollo Web y React Js en{" "}
+            <a
+              style={{ textDecoration: "none", color: "#080808" }}
+              href="https://www.coderhouse.com/"
+            >
+              Coderhouse
+            </a>
           </p>
         </div>
         <div className="sobreMi-foto">

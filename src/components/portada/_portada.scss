@@ -3,15 +3,16 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 60vh;
   background-color: $colorFondoPortada;
-  padding-top: 60px;
+  padding-top: 30px;
   text-align: center;
 
   .main-h2 {
     color: $colorFondo;
     font-size: 65px;
     display: flex;
+    font-family: "Archivo Black", sans-serif;
   }
 
   .main-h3 {
@@ -19,9 +20,11 @@
   }
 
   .main-h1 {
-    color: $colorPrincipal;
-    font-size: 65px;
-    margin-left: 5px;
+    font-family: "Archivo Black", sans-serif;
+    background: $colorPrincipal;
+    color: $colorFondo;
+    padding: 5px 20px;
+    font-size: 55px;
   }
   .main-h1 .Typewriter__cursor {
     color: $colorFondo;
@@ -40,6 +43,7 @@
   #main {
     .main-h2 {
       font-size: 40px;
+      font-family: "Archivo Black", sans-serif;
     }
 
     .main-h3 {
@@ -48,6 +52,7 @@
 
     .main-h1 {
       font-size: 40px;
+      font-family: "Archivo Black", sans-serif;
     }
     .main-p {
       color: $colorFondo;
