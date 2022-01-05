@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
 $colorFondoPortada: #080808;
-$colorFondo: #f5f5f5;
+$colorFondo: #ffffff;
 $colorClasico: #080808;
 $colorPrincipal: #127475;
 $colorLinea: #080808;
@@ -14,17 +15,17 @@ $sombra: 0px 0px 0px rgba(0, 0, 0, 0.6);
   padding: 0;
 }
 
-html::-webkit-scrollbar {
-  width: 13px;
-  height: 7px;
-  background-color: rgba(255, 255, 255, 0.123);
-}
+// html::-webkit-scrollbar {
+//   width: 13px;
+//   height: 7px;
+//   background-color: rgba(255, 255, 255, 0.123);
+// }
 
-html::-webkit-scrollbar-thumb {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-  background-color: rgba(8, 8, 8, 0.78);
-}
+// html::-webkit-scrollbar-thumb {
+//   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//   background-color: rgba(8, 8, 8, 0.78);
+// }
 
 body {
   background-color: $colorFondo;

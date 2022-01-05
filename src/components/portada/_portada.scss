@@ -1,66 +1,58 @@
-.main {
+#main {
+  // border-bottom: 4px solid $colorFondoPortada;
+  height: 100vh;
+  margin-top: 40px;
   display: flex;
-  align-items: center;
+  // align-items: center;
+  margin-left: 100px;
   flex-direction: column;
   justify-content: center;
-  height: 60vh;
-  background-color: $colorFondoPortada;
-  padding-top: 30px;
-  text-align: center;
+  // background: linear-gradient(90deg, $colorPrincipal 50%, $colorFondo 50%);
 
-  .main-h2 {
-    color: $colorFondo;
-    font-size: 65px;
-    display: flex;
-    font-family: "Archivo Black", sans-serif;
-  }
-
-  .main-h3 {
-    font-size: 65px;
-  }
-
-  .main-h1 {
-    font-family: "Archivo Black", sans-serif;
-    background: $colorPrincipal;
-    color: $colorFondo;
-    padding: 5px 20px;
-    font-size: 55px;
-  }
-  .main-h1 .Typewriter__cursor {
-    color: $colorFondo;
-  }
-  .main-p {
-    color: $colorFondo;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-}
-
-@media (max-width: 600) {
-  #main {
-    .main-h2 {
-      font-size: 40px;
+  .main-contenedor {
+    h1 {
+      text-transform: uppercase;
+      color: $colorFondoPortada;
+      font-size: 80px;
       font-family: "Archivo Black", sans-serif;
+      span {
+        color: $colorPrincipal;
+        font-family: monospace;
+      }
     }
-
-    .main-h3 {
-      font-size: 40px;
-    }
-
-    .main-h1 {
-      font-size: 40px;
-      font-family: "Archivo Black", sans-serif;
-    }
-    .main-p {
-      color: $colorFondo;
-      margin-top: 20px;
+    p {
       font-size: 20px;
-      font-weight: 300;
+      font-weight: 600;
+      color: $colorFondoPortada;
+      text-align: left;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+      .borderEffect {
+        position: relative;
+      }
+
+      .borderEffect span {
+        position: relative;
+      }
+
+      .borderEffect::before {
+        content: "";
+        position: absolute;
+        left: -0.1px;
+        right: -0.1px;
+        bottom: 0;
+        height: 100%;
+        transform: scaleY(0.3);
+        transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+        transform-origin: bottom;
+        background-color: $colorPrincipal;
+        opacity: 0.6;
+      }
+
+      .borderEffect:hover::before {
+        transform: scaleY(1);
+      }
     }
   }
 }

@@ -17,8 +17,8 @@ const SobreMi = () => {
             <br />
             <br />
             Disfruto trabajando en equipo y estoy constantemente tratando de
-            incorporar cosas nuevas: actualmente estoy centrado en aprender
-            NodeJs para trabajar con backend.
+            incorporar nuevos conocimientos: actualmente estoy centrado en
+            aprender NodeJs para trabajar con backend.
             <br />
             <br />
             Tengo experiencia trabajando en proyectos freelances y como tutor de

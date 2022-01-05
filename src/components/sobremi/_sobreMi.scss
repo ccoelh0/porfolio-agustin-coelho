@@ -1,8 +1,11 @@
 .sobreMiGral {
-  margin-top: 100px;
+  padding-top: 50px;
+  background-color: $colorFondoPortada;
+
   div {
     h3 {
-      color: $colorFondoPortada;
+      color: $colorFondo;
+      text-transform: uppercase;
       font-size: 40px;
       justify-content: center;
       margin-bottom: 50px;
@@ -14,7 +17,7 @@
 }
 
 .sobreMi {
-  background-color: $colorFondo;
+  background-color: $colorFondoPortada;
   padding: 0px 50px 50px 50px;
   display: flex;
   justify-content: space-evenly;
@@ -24,7 +27,7 @@
 .sobreMi .sobreMi-contenido {
   width: 50%;
   p {
-    color: $colorFondoPortada;
+    color: $colorFondo;
     font-size: 20px;
     font-weight: 300;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -38,9 +41,4 @@
       margin-right: 40px;
     }
   }
-}
-
-.sobreMi .sobreMi-foto img {
-  width: 400px;
-  border-radius: 250px;
 }
